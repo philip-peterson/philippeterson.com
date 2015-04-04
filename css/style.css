@@ -6,7 +6,7 @@ body, html {
 }
 
 body {
-   background-image: url(images/backdrop.png);
+   background-image: url(../images/backdrop.png);
    background-size: cover;
    background-position: center bottom;
 }
@@ -14,14 +14,14 @@ body {
 div.headshot {
    display: block;
    text-align: center;
-   padding-top: 12em;
-   padding-bottom: 6em;
+   padding-top: 10em;
+   padding-bottom: 5em;
 }
 
 img.headshot {
-   border-radius: 20px;
-   border: 1em solid rgba(0,0,0,.4);
-   width: 35em;
+   border-radius: 1.7em;
+   border: .5em solid rgba(0,0,0,.4);
+   width: 37em;
 
    opacity: .8;
    transition: opacity 1s;
@@ -38,12 +38,18 @@ img.headshot:hover {
 .nav {
    font-size: 1.5em;
    text-align: center;
-   border: 14px double rgba(0,0,0,.3);
-   border-top: 0;
-   border-bottom: 0;
+   border: .5em double rgba(0,0,0,.3);
    border-radius: 20px;
    display: inline-block;
    margin-top: 3em;
+
+   /* This does look weird on mobile, need to fix. */
+   border-top-width: 0;
+   border-bottom-width: 0;
+}
+
+.nav-container.mini {
+   font-size: .5em;
 }
 
 .nav h1 {
@@ -63,4 +69,24 @@ img.headshot:hover {
    transition: width .5s;
    width: 0%;
    margin: 0 auto;
+}
+
+/* Contact info */
+
+.contactinfo {
+   font-family: Arial;
+   text-align: center;
+   margin: 2em auto;
+   padding: 1em;
+   width: 50%;
+   font-size: 2em;
+   line-height: 2;
+   background-color: #eeeeee;
+   border: .15em double black;
+}
+
+.contactinfo .cta {
+   font-size: 1.5em;
+   border-bottom: .05em solid rgba(0,0,0,.2);
+   margin-bottom: .5em;
 }
