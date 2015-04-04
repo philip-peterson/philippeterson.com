@@ -111,8 +111,7 @@ print_page('R&eacute;sum&eacute;', function() {
         }
 
     </style>
-</head>
-<body>
+
     <div class='resume'>
         <div class='section'>
             <div class='name'>Philip Peterson</div>
