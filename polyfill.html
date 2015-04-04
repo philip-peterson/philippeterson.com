@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+   <title>Philip Peterson</title>
+   <style type="text/css">
+      body, html {
+         min-height: 100%;
+      }
+
+      body {
+         background-image: url(images/backdrop.png);
+         background-repeat: no-repeat;
+      }
+
+      body.vertical {
+         background-position: 20% center;
+         background-size: auto 100%;
+      }
+
+      body.horizontal {
+         background-size: 100% auto;
+         background-position: center 100%;
+      }
+
+      img.headshot {
+         border: 20px solid red;
+
+         /* Chrome, Safari */
+         -webkit-clip-path: url(clip.svg);
+
+         /* Firefox */
+         clip-path: url(clip.svg#svgClip);
+
+         /* iOS */
+          -webkit-mask: url('clip.svg');
+      }
+
+      .headshot {
+         transform-origin: top left;
+         -webkit-transform-origin: top left;
+      }
+   </style>
+   <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+</head>
+<body class='vertical'>
+
+   <img src="images/headshot.png" class='headshot' id='headshot'>
+   <script>
+
+      function curryUpdate($elem, canvas) {
+         return function() {
+            var elem = $elem[0];
+            canvas.width = $elem.width();
+            canvas.height = $elem.height();
+
+            var ctx = canvas.getContext('2d');
+            ctx.fillStyle='black';
+            ctx.fillRect(10,10, 240, 240);
+            ctx.globalCompositeOperation = 'source-in';
+            ctx.drawImage(elem, 30, 30);
+         }
+      }
+
+      var clipPathPolyfill = {
+         initialize: function(elem) {
+            var replacement = document.createElement('canvas');
+            replacement.className = elem.className + " clipPathPolyfill";
+            elem.parentNode.insertBefore(replacement, elem.nextSibling);
+            var $elem = $(elem);
+            var responder = curryUpdate($elem, replacement);
+            $elem.resize(responder);
+            responder();
+         }
+      };
+
+      clipPathPolyfill.initialize(document.getElementById('headshot'));
+
+   </script>
+
+</body>
+</html>
