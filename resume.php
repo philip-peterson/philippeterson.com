@@ -29,9 +29,25 @@ print_page('R&eacute;sum&eacute;', function() {
             box-sizing: border-box;
         }
 
+        .printbutton {
+            text-align: center;
+        }
+
         @media print {
+            .printbutton {
+                display: none;
+            }
             .resume {
                 border: 0;
+                margin: 0;
+            }
+            .nav-container {
+                display: none;
+            }
+            html, body {
+                margin: 0;
+                padding: 0;
+                width: 100%;
             }
         }
         
@@ -103,7 +119,7 @@ print_page('R&eacute;sum&eacute;', function() {
             <div class='phone'>
                &#x28;&#x34;&#x30;&#x37;&#x29;&#x20;&#x39;&#x33;&#x37;&#x2D;&#x38;&#x36;&#x34;&#x39;
             </div>
-            <div class='email'>ppeterson@ufl.edu</div>
+            <div class='email'>philip.c.peterson@gmail.com</div>
         </div>
         <div class='section'>
             <div class='header'>Platforms / Languages</div>
@@ -132,6 +148,30 @@ print_page('R&eacute;sum&eacute;', function() {
             <div class='header'>Project Involvement and Work Experience</div>
 
             <div class='job'>
+                <div class='period'>2009 &ndash; Present</div>
+                <div class='job-details'>
+                    <div class='employer'>59 Volt Entertainment</div>
+                    <div class='location'>(remote, side project)</div>
+                    <div class='url'><a href="http://starryexpanse.com/">http://starryexpanse.com/</a></div>
+                </div>
+                <div class='position'>
+                    Director / Lead Programmer
+                </div>
+                <ul class='summary'>
+                    <li>Organized and led a team of approximately twelve people in a video game re-creation project</li>
+                    <li>
+                        Developed 
+                        <a href="https://github.com/starryexpanse/">internal tools</a>
+                        to facilitate workflows
+                    </li>
+                    <li>Performed system administration duties for 5 years</li>
+                    <li>Completed programming goals independently in a detail-oriented manner</li>
+                    <li>Designed and implemented systems to perform computations in an organized and efficient manner</li>
+                    <li>Solved problems in computational geometry</li>
+                </ul>
+            </div>
+
+            <div class='job'>
                 <div class='period'>May 2013 &ndash; October 2014</div>
                 <div class='job-details'>
                     <div class='employer'>Gleim Publications, Inc.</div><div
@@ -149,30 +189,6 @@ print_page('R&eacute;sum&eacute;', function() {
                     <li>Wrote documentation for new and existing systems/software</li>
                     <li>Identified multiple security vulnerabilities</li>
                     <li>Implemented parts of and interfaced with large business logic codebase, including database code</li>
-                </ul>
-            </div>
-
-            <div class='job'>
-                <div class='period'>2009 &ndash; Present</div>
-                <div class='job-details'>
-                    <div class='employer'>59 Volt Entertainment</div>
-                    <div class='location'>(remote)</div>
-                    <div class='url'><a href="http://starryexpanse.com/">http://starryexpanse.com/</a></div>
-                </div>
-                <div class='position'>
-                    Director / Lead Programmer
-                </div>
-                <ul class='summary'>
-                    <li>Organized and led a team of approximately twelve people in a video game re-creation project</li>
-                    <li>
-                        Developed 
-                        <a href="https://github.com/starryexpanse/">internal tools</a>
-                        to facilitate workflows
-                    </li>
-                    <li>Performed system administration duties for 5 years</li>
-                    <li>Completed programming goals independently in a detail-oriented manner</li>
-                    <li>Designed and implemented systems to perform computations in an organized and efficient manner</li>
-                    <li>Solved problems in computational geometry</li>
                 </ul>
             </div>
 
@@ -209,7 +225,7 @@ print_page('R&eacute;sum&eacute;', function() {
                 </div>
             </div>
             <div class='subgroup'>
-                <div class='header'>Side projects</div>
+                <div class='header'>Smaller side projects</div>
                 <div class='contents'>
                     <ul>
                         <li>
@@ -232,9 +248,11 @@ print_page('R&eacute;sum&eacute;', function() {
             </div>
         </div>
 
-
     </div> <!-- resume -->
 
+    <div class='printbutton'>
+       <a href="javascript:print();">Print this r&eacute;sum&eacute;</a>
+    </div>
 
 <?php
 
