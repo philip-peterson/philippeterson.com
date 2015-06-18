@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule "^resume$"  "resume.php"
+RewriteRule "^contact$"  "contact.php"
+

@@ -15,6 +15,7 @@ function print_page($title, $body_func) {
 
 <?php
    $body_func();
+   include_once __DIR__ . "/analyticstracking.php";
 ?>
 
 </body>

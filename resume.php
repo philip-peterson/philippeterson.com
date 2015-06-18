@@ -154,19 +154,13 @@ print_page('R&eacute;sum&eacute;', function() {
                     <div class='url'><a href="http://starryexpanse.com/">http://starryexpanse.com/</a></div>
                 </div>
                 <div class='position'>
-                    Director / Lead Programmer
+                    Director and Software Developer
                 </div>
                 <ul class='summary'>
-                    <li>Organized and led a team of approximately twelve people in a video game re-creation project</li>
-                    <li>
-                        Developed 
-                        <a href="https://github.com/starryexpanse/">internal tools</a>
-                        to facilitate workflows
-                    </li>
-                    <li>Performed system administration duties for 5 years</li>
-                    <li>Completed programming goals independently in a detail-oriented manner</li>
-                    <li>Designed and implemented systems to perform computations in an organized and efficient manner</li>
-                    <li>Solved problems in computational geometry</li>
+                    <li>Organized and led a team of approximately fifteen people in a video game project</li>
+                    <li>Worked with Unreal Engine 4 in C++</li>
+                    <li>Developed internal web tools</li>
+                    <li>Designed/implemented gameplay systems and computational geometry solutions</li>
                 </ul>
             </div>
 
@@ -183,18 +177,19 @@ print_page('R&eacute;sum&eacute;', function() {
                     Software Developer (Front-end and back-end)
                 </div>
                 <ul class='summary'>
-                    <li>Contributed to educational and business platform software for a medium-sized publication company</li>
                     <li>Extended and refactored internal and external web applications and utilities</li>
-                    <li>Wrote documentation for new and existing systems/software</li>
-                    <li>Identified multiple security vulnerabilities</li>
-                    <li>Implemented parts of and interfaced with large business logic codebase, including database code</li>
+                    <li>Developed database code</li>
+                    <li>Documented new and existing systems/software</li>
+                    <li>Implemented/interfaced with components of large business logic codebase</li>
+                    <li>Gained experience working with and writing shell scripts for Linux systems</li>
+                    <li>Contributed to educational and business platform software for a medium-sized publication company</li>
                 </ul>
             </div>
 
             <div class='job'>
                 <div class='period'>April 2011 &ndash; July 2011</div>
                 <div class='job-details'>
-                    <div class='employer'>Escape Media Group, LLC</div><div class='location'>, Gainesville, FL</div>
+                    <div class='employer'>Grooveshark</div><div class='location'>, Gainesville, FL</div>
                     <div class='url'>
                         <a href="http://escapemg.com/">http://escapemg.com/</a>
                     </div>
@@ -203,8 +198,8 @@ print_page('R&eacute;sum&eacute;', function() {
                     Systems Intern
                 </div>
                 <ul class='summary'>
-                    <li>Researched HTML5 APIs to offload audio file processing from the server side onto the client side, and implemented prototype for doing so</li>
-                    <li>Designed and implemented a web application database, backend, and frontend</li>
+                    <li>Researched HTML5 APIs, developed code to offload audio file processing from the server side onto the client side</li>
+                    <li>Designed and implemented a web application database, frontend, and RESTful backend</li>
                 </ul>
             </div>
         </div> <!-- section -->
@@ -231,7 +226,7 @@ print_page('R&eacute;sum&eacute;', function() {
                         <a href="https://github.com/philip-peterson/Pyternion">Pyternion</a>
                         &mdash; Quaternion (3D rotation math) library for Python
                         <li>
-                        <a href="https://github.com/philip-peterson/Pyternion">WikiChecker</a>
+                        <a href="https://github.com/philip-peterson/WikiChecker">WikiChecker</a>
                         &mdash; Tool for verifying navigability of a MediaWiki wiki
                         <li>
                         <a href="https://github.com/starryexpanse/MagBot">MagBot</a> &mdash; Collection of IRC bot plugins for logging and offline message storage
