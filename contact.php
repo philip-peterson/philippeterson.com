@@ -11,18 +11,14 @@ print_page('Contact', function() {
    </div>
 
    <div class=contactinfo>
-      <div class=cta>
-         Email or telephone
-      </div>
-
       <div class=title>
          Philip Peterson, Software Developer
       </div>
       <div class=phone>
-         &#x28;&#x34;&#x30;&#x37;&#x29;&#x20;&#x39;&#x33;&#x37;&#x2D;&#x38;&#x36;&#x34;&#x39;
+         Phone: <a href="tel:4079378649">407.937.8649</a>
       </div>
       <div class=email>
-         philip.c.peterson@gmail.com
+         <a href="mailto:ppeterson@ufl.edu">ppeterson@ufl.edu</a>
       </div>
    </div>
 

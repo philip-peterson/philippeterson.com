@@ -5,7 +5,7 @@ function print_page($title, $body_func) {
 ?><!doctype html>
 <html>
 <head>
-   <title><?php if(!empty($title)) { echo "$title &ndash; ";} ?>Philip Peterson</title>
+   <title><?php if(!empty($title)) { echo "$title &ndash; ";} ?>Philip Peterson | Software Developer</title>
    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
    <link rel='stylesheet' type='text/css' href='css/style.css'>
    <script type='text/javascript' src='js/jquery.min.js'></script>
@@ -41,7 +41,7 @@ function print_nav($home = false) {
             }
          ?>
          <h1>
-            <a href="/resume.php">
+            <a href="/resume">
                R&eacute;sum&eacute;
             </a>
             <div class='growy-underline'></div>
@@ -53,7 +53,7 @@ function print_nav($home = false) {
             <div class='growy-underline'></div>
          </h1>
          <h1 style="text-align: center;">
-            <a href="/contact.php">
+            <a href="/contact">
                Contact Info
             </a>
             <div class='growy-underline'></div>

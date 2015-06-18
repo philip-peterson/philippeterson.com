@@ -7,10 +7,10 @@ print_page('', function() {
 ?>
 
 <div class='headshot'>
-   <a href="mailto:philip.c.peterson@gmail.com">
+   <a href="mailto:ppeterson@ufl.edu">
       <img
          src="images/headshot.png"
-         alt="A picture of Philip Peterson in a location which can be quite accurately located via Google reverse image search"
+         alt="A picture of Philip Peterson set atop the beautiful green cliffs of Ireland"
          class='headshot'
          title="Click on my face to contact me."
       >

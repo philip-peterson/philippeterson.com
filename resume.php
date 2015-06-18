@@ -22,7 +22,7 @@ print_page('R&eacute;sum&eacute;', function() {
             height: 11in;
             border: 1px solid gray;
             margin: 2em auto;
-            font-family: Calibri, Cambria, Helvetica, Arial, sans-serif;
+            font-family: "Times New Roman";
             font-size: 11pt;
             padding: .5in;
             padding-top: .25in;
@@ -114,37 +114,46 @@ print_page('R&eacute;sum&eacute;', function() {
 
     <div class='resume'>
         <div class='section'>
-            <div class='name'>Philip Peterson</div>
+            <div class='name'>Philip Peterson, Software Developer</div>
             <div class='phone'>
                &#x28;&#x34;&#x30;&#x37;&#x29;&#x20;&#x39;&#x33;&#x37;&#x2D;&#x38;&#x36;&#x34;&#x39;
             </div>
-            <div class='email'>philip.c.peterson@gmail.com</div>
+            <div class='email'>ppeterson@ufl.edu</div>
         </div>
         <div class='section'>
             <div class='header'>Platforms / Languages</div>
             <div class='subgroup'>
-                <div class='header'>Web / Database</div>
+                <div class='header'>Strong</div>
                 <div class='contents'>
-                    HTML/CSS/JavaScript (+ HTML5 APIs, jQuery, MEAN.JS), MySQL, PHP (+ WordPress), Python (Flask, some Django)
+                    HTML/CSS/JavaScript (+ HTML5 APIs, jQuery, MEAN.JS), SQL, PHP, Python (+ Flask)
                 </div>
             </div>
             <div class='subgroup'>
-                <div class='header'>Other Languages</div>
+                <div class='header'>Proficient</div>
                 <div class='contents'>
-                    Java (+ Processing), .NET (Mono &mdash; C#, Boo, JScript.NET-like language), C++, Bash scripting,
-                    C, MATLAB, FORTRAN, Cg/HLSL, MIPS assembly (RISC architecture)
-                </div>
-            </div>
-            <div class='subgroup'>
-                <div class='header'>Other platforms or technologies I am familiar with</div>
-                <div class='contents'>
-                    Linux / UNIX, Windows, Mac OS X, Unity 3D, Unreal Engine 4, Blender 3D, IRC, Mercurial, Git
+                    Java (+ Processing), .NET (Mono &mdash; C# et al.), C++, Bash,
+                    C, MATLAB, Cg/HLSL, MIPS
                 </div>
             </div>
         </div>
 
         <div class='section'>
             <div class='header'>Project Involvement and Work Experience</div>
+
+            <div class='job'>
+                <div class='period'>2015 &ndash; Present</div>
+                <div class='job-details'>
+                    <div class='employer'>University of Florida</div>
+                    <div class='location'>(Gainesville, FL)</div>
+                </div>
+                <div class='position'>
+                    Software Developer
+                </div>
+                <ul class='summary'>
+                    <li>Working with Dr. J&ouml;rg Peters to develop a collaboration platform for surgeons</li>
+                    <li>Using Flask to design a RESTful backend and single-page app architecture for frontend</li>
+                </ul>
+            </div>
 
             <div class='job'>
                 <div class='period'>2009 &ndash; Present</div>
@@ -154,13 +163,13 @@ print_page('R&eacute;sum&eacute;', function() {
                     <div class='url'><a href="http://starryexpanse.com/">http://starryexpanse.com/</a></div>
                 </div>
                 <div class='position'>
-                    Director and Software Developer
+                    Software Developer and Co-Founder
                 </div>
                 <ul class='summary'>
-                    <li>Organized and led a team of approximately fifteen people in a video game project</li>
-                    <li>Worked with Unreal Engine 4 in C++</li>
-                    <li>Developed internal web tools</li>
-                    <li>Designed/implemented gameplay systems and computational geometry solutions</li>
+                    <li>Video game re-creation project using UE4</li>
+                    <li>Designed large gameplay system with many moving parts</li>
+                    <li>Developed an IRC logbot with message delivery capabilities, and a corresponding log-viewer webapp</li>
+                    <li>Designed a system to handle interactivity and restorable game state</li>
                 </ul>
             </div>
 
@@ -174,15 +183,14 @@ print_page('R&eacute;sum&eacute;', function() {
                     </div>
                 </div>
                 <div class='position'>
-                    Software Developer (Front-end and back-end)
+                    Software Developer (Frontend and backend)
                 </div>
                 <ul class='summary'>
-                    <li>Extended and refactored internal and external web applications and utilities</li>
-                    <li>Developed database code</li>
-                    <li>Documented new and existing systems/software</li>
-                    <li>Implemented/interfaced with components of large business logic codebase</li>
-                    <li>Gained experience working with and writing shell scripts for Linux systems</li>
-                    <li>Contributed to educational and business platform software for a medium-sized publication company</li>
+                    <li>Implemented an audio download and streaming system, plus a backend for uploading content</li>
+                    <li>Extended and refactored web applications and utilities</li>
+                    <li>Documented systems</li>
+                    <li>Worked with large business logic codebase</li>
+                    <li>Developed database code for a variety of tasks</li>
                 </ul>
             </div>
 
@@ -219,7 +227,7 @@ print_page('R&eacute;sum&eacute;', function() {
                 </div>
             </div>
             <div class='subgroup'>
-                <div class='header'>Smaller side projects</div>
+                <div class='header'>Side projects</div>
                 <div class='contents'>
                     <ul>
                         <li>
