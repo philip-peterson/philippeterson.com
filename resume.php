@@ -150,8 +150,9 @@ print_page('R&eacute;sum&eacute;', function() {
                     Software Developer
                 </div>
                 <ul class='summary'>
-                    <li>Working with Dr. J&ouml;rg Peters to develop a collaboration platform for surgeons</li>
-                    <li>Using Flask to design a RESTful backend and single-page app architecture for frontend</li>
+                    <li>Working with a professor to develop a collaboration platform for surgeons</li>
+                    <li>Using Flask to design a RESTful API as a backend, plus</li>
+                    <li>Using a single-page app architecture for frontend</li>
                 </ul>
             </div>
 
@@ -166,9 +167,9 @@ print_page('R&eacute;sum&eacute;', function() {
                     Software Developer and Co-Founder
                 </div>
                 <ul class='summary'>
-                    <li>Video game re-creation project using UE4</li>
-                    <li>Designed large gameplay system with many moving parts</li>
-                    <li>Developed an IRC logbot with message delivery capabilities, and a corresponding log-viewer webapp</li>
+                    <li>Ongoing video game re-creation project using UE4</li>
+                    <li>Developed an internal-use logging IRC chatbot with message delivery capabilities and a corresponding log-viewer webapp</li>
+                    <li>Designed large gameplay system with many subsystems</li>
                     <li>Designed a system to handle interactivity and restorable game state</li>
                 </ul>
             </div>
@@ -186,11 +187,11 @@ print_page('R&eacute;sum&eacute;', function() {
                     Software Developer (Frontend and backend)
                 </div>
                 <ul class='summary'>
-                    <li>Implemented an audio download and streaming system, plus a backend for uploading content</li>
-                    <li>Extended and refactored web applications and utilities</li>
+                    <li>Implemented an audio streaming system, plus a companion internal content management system</li>
+                    <li>Extended and refactored web code and utilities</li>
                     <li>Documented systems</li>
-                    <li>Worked with large business logic codebase</li>
-                    <li>Developed database code for a variety of tasks</li>
+                    <li>Extended and refactored large business logic codebase</li>
+                    <li>Developed efficient database queries</li>
                 </ul>
             </div>
 
@@ -206,7 +207,7 @@ print_page('R&eacute;sum&eacute;', function() {
                     Systems Intern
                 </div>
                 <ul class='summary'>
-                    <li>Researched HTML5 APIs, developed code to offload audio file processing from the server side onto the client side</li>
+                    <li>Used new HTML5 APIs to offload audio file processing from the server onto the client</li>
                     <li>Designed and implemented a web application database, frontend, and RESTful backend</li>
                 </ul>
             </div>
