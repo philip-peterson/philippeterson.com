@@ -7,7 +7,7 @@ print_page('', function() {
 ?>
 
 <div class='headshot'>
-   <a href="mailto:ppeterson@ufl.edu">
+   <a href="mailto:peterson@sent.com">
       <img
          src="images/headshot.png"
          alt="A picture of Philip Peterson set atop the beautiful green cliffs of Ireland"
