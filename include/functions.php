@@ -1,9 +1,9 @@
 <?php
 
-function print_page($title, $body_func) {
+function print_page($title, $body_func, $html_attrs='', $body_attrs='') {
 
 ?><!doctype html>
-<html>
+<html <?echo $html_attrs?>>
 <head>
    <title><?php if(!empty($title)) { echo "$title &ndash; ";} ?>Philip Peterson | Software Architect</title>
    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
@@ -11,7 +11,7 @@ function print_page($title, $body_func) {
    <script type='text/javascript' src='js/jquery.min.js'></script>
    <script type='text/javascript' src='js/growy.js'></script>
 </head>
-<body>
+<body <? echo $body_attrs; ?>>
 
 <?php
    $body_func();

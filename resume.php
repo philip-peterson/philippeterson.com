@@ -124,4 +124,4 @@ print_page('R&eacute;sum&eacute;', function() {
 
 <?php
 
-});
+}, 'class="html-resume"', 'class="body-resume"');
