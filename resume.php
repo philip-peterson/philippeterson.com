@@ -31,6 +31,18 @@ print_page('R&eacute;sum&eacute;', function() {
 
         .printbutton {
             text-align: center;
+            margin-bottom: 2em;
+        }
+
+        .printbutton a:link {
+            color: #D21C1C;
+            background-color: #ff000024;
+            display: inline-block;
+            padding: 5px;
+        }
+
+        .printbutton a:hover {
+            color: #FB7979;
         }
 
         @media print {
