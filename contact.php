@@ -12,10 +12,10 @@ print_page('Contact', function() {
 
    <div class=contactinfo>
       <div class=title>
-         Philip Peterson - Software Architect
+         Philip Peterson, Software Architect
       </div>
       <div class=phone>
-         Phone: <a href="tel:+14155836433">+1 415-583-6433</a>
+         Phone: <a href="tel:+19072060681">+1 907-206-0681</a>
       </div>
       <div class=email>
          <a href="mailto:peterson@sent.com">peterson@sent.com</a>

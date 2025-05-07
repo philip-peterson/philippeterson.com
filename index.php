@@ -9,17 +9,18 @@ print_page('', function() {
 <div class='headshot'>
    <a href="mailto:peterson@sent.com">
       <img
-         src="images/headshot.png"
-         alt="A picture of Philip Peterson set atop the beautiful green cliffs of Ireland"
+         src="images/headshot.jpg"
+         alt="A professional headshot of Philip Peterson"
          class='headshot'
-         title="Click on my face to contact me."
+         title="You can click on my face to contact me."
       >
    </a>
+   <div class='nav-container'>
+      <div class='title'>Philip Peterson</div>
+      <?php print_nav(false); ?>
+   </div>
 </div>
 
-<div class='nav-container'>
-   <?php print_nav(false); ?>
-</div>
 
 <?php
 

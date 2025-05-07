@@ -53,6 +53,12 @@ function print_nav($home = false) {
             <div class='growy-underline'></div>
          </h1>
          <h1 style="text-align: center;">
+            <a href="/portfolio">
+               Portfolio
+            </a>
+            <div class='growy-underline'></div>
+         </h1>
+         <h1 style="text-align: center;">
             <a href="/contact">
                Contact Info
             </a>
