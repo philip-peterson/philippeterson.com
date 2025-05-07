@@ -28,8 +28,9 @@ div.headshot > * {
 
 img.headshot {
    border-radius: 150px;
-   border: 3px solid rgba(0,0,0,.4);
+   border: 1px solid rgba(0,0,0,.4);
    width: 300px;
+   filter: drop-shadow(21px -3px 27px #000);
 }
 
 .nav-container {
@@ -38,6 +39,7 @@ img.headshot {
 }
 
 .nav-container > .title {
+   color: #b0f282;
    letter-spacing: 0.8em;
    font-size: 1.4em;
    border-bottom: 1px solid rgba(0,0,0, 0.4);
@@ -71,13 +73,18 @@ img.headshot {
 }
 
 .nav h1 a {
-   color: black;
+   color: rgba(0,0,0, 0.8);
+   transition: color 0.4s;
    text-decoration: none;
    font-weight: 700;
 }
 
+.nav h1 a:hover {
+   color: rgba(255,255,255, 0.8);
+}
+
 .growy-underline {
-   border-bottom: .08em solid rgba(0,0,0,.1);
+   border-bottom: .3em solid rgba(0,0,0,.1);
    transition: width .5s;
    width: 0%;
    margin: 0 auto;
