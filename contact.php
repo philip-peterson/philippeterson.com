@@ -15,7 +15,7 @@ print_page('Contact', function() {
          Philip Peterson, Software Architect
       </div>
       <div class=phone>
-         Phone: <a href="tel:+19072060681">+1 907-206-0681</a>
+         Phone: <a href="tel:+19072060681">+1 (907) 206-0681</a>
       </div>
       <div class=email>
          <a href="mailto:peterson@sent.com">peterson@sent.com</a>
