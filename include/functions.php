@@ -6,7 +6,7 @@ function print_page($title, $body_func) {
 <html>
 <head>
    <title><?php if(!empty($title)) { echo "$title &ndash; ";} ?>Philip Peterson | Software Architect</title>
-   <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+   <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
    <link rel='stylesheet' type='text/css' href='css/style.css'>
    <script type='text/javascript' src='js/jquery.min.js'></script>
    <script type='text/javascript' src='js/growy.js'></script>
