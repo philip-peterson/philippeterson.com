@@ -68,6 +68,24 @@ img.headshot {
    border-bottom-width: 0;
 }
 
+/* Mobile styling */
+@media(max-width:900px) {
+   div.headshot {
+      height: initial;
+      flex-direction: column;
+   }
+
+   div.headshot .profile-photo {
+      margin-top: 4em;
+   }
+   
+   .nav {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+
+
 .nav-container.mini {
    background-color: rgba(0,0,0, 0.2);
    font-size: .8em;
