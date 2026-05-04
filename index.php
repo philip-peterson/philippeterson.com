@@ -9,7 +9,7 @@ print_page('', function() {
 <div class='headshot'>
    <a href="mailto:peterson@sent.com" class="profile-photo">
       <img
-         src="images/headshot.jpg"
+         src="images/headshot.png"
          alt="A professional headshot of Philip Peterson"
          class='headshot'
          title="You can click on my face to contact me."

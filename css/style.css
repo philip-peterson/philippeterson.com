@@ -34,10 +34,9 @@ div.headshot > * {
 }
 
 img.headshot {
-   border-radius: 150px;
-   border: 1px solid rgba(0,0,0,.4);
-   width: 300px;
-   filter: drop-shadow(21px -3px 27px #000);
+   width: 600px;
+   margin-left: -150px;
+   margin-right: -150px;
 }
 
 .nav-container {
